@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Form Validation Page</h1>
+    </header>
+    <nav id="navbar" class="header">
+        <ul>
+            <li><a href="index.html" target="_self">Alert Box</a></li>
+            <li><a href="todo.html" target="_self">Todo</a></li>
+            <li><a href="form.html" target="_self" class="active">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="form">
+            <h2>Login</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <p id="errorName">Name must include a lowercase letter and a number</p>
+                </div>
+               
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <p id="errorEmail">Invalid email format</p>
+                </div>
+                
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <p id="errorPassword">Password must be at least 6 characters</p>
+                </div>
+
+                <div>
+                    <button type="submit">Log in</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>

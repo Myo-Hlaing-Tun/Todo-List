@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+</head>
+
+<body>
+    <header>
+        <h1>Todo Page</h1>
+    </header>
+    <nav id="navbar" class="header">
+        <ul>
+            <li><a href="index.html" target="_self">Alert Box</a></li>
+            <li><a href="todo.html" target="_self" class="active">Todo</a></li>
+            <li><a href="form.html" target="_self">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="todo">
+            <h3>Todo App</h3>
+            <input type="text" id="search" placeholder="Search Todo" onkeyup="myFunction()">
+            <div id="addList">
+            </div>
+            <input type="text" id="new" placeholder="Enter new todo" class="mb-12">
+            <button id="btn">Add Todo</button>
+        </div>
+    </main>
+    <script src="todo.js"></script>
+</body>
+</html>
